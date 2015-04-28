@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int sum = 0, i = 0;
+	cout << "Input some integers ending with ctrl+z: ";
+	while (cin >> i)
+	{
+		sum += i;
+	}
+	cout << "The sum of these integers are " << sum << endl;
+	system("pause");
+	return 0;
+}
