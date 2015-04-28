@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	//practice 1.9
+	int sum = 0;
+	for (int i = 50; i <= 100; ++i)
+		sum += i;
+	cout << "The sum from 50 to 100 is: " << sum << endl;
+	//practice1.10
+	cout << "The integers from 10 to 0 are: ";
+	for (int i = 10; i >= 0; --i)
+		cout << i << ' ';
+	cout << endl;
+	//practice 1.11
+	int a, b;
+	cout << "Please input two integer: ";
+	cin >> a >> b;
+	if (a > b)
+	{
+		int temp = a;
+		a = b;
+		b = temp;
+	}
+	cout << "The numbers from " << a << " to " << b << " are: ";
+	for (int i = a; i <= b; ++i)
+		cout << i << ' ';
+	cout << endl;
+	system("pause");
+	return 0;
+}
