@@ -1,0 +1,9 @@
+//将下列代码输入你常用的编译器，看编译器如何警告
+#include<iostream>
+int main()
+{
+	std::cout << "Read each file." << std::endl:
+	std::cout << Update master. << std::endl;
+	std::cout << "Write new master."std::endl;
+	return 0
+}
