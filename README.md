@@ -23,3 +23,11 @@ float与double的区别
 2.3
 32 2^32-32
 32 -32 0 0
+2.5
+(a)char、wchar_t、string、wchar_t*
+(b)int、unsigned int、long、unsigned long、int、int
+(c)double、float、long
+(d)int、unsigned int、double、double
+2.6
+有区别。以0开头的数字是八进制数字，定义上面一组变量时无问题，定义下面一组时，因为09是没有意义的八进制数字，因此编译器会提示出错。
+2.7
