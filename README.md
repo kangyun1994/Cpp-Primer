@@ -35,4 +35,24 @@ a)Who goes with Fergus? 字符串
 b)31.4 long double类型 3.14E1意思是3.14*10^1
 c)1024 float类型。此处VS2013给出编译错误的解释，原因应该是1024默认为int类型，后面加f无意义，而1024.则编译通过。
 d)3.14 long double类型
-2.8
+2.9
+a)cin>>后不能定义变量
+b)定义变量i，初始化为3
+c)若wage已定义，则语句含义为将定义salary并将salary和wage都赋值为9999.99，若wage未定义，则编译失败。
+d)定义变量i初始化为3
+2.10
+global_int初始值为0；
+global_str和local_str初始值均为空
+local_int无初始值。
+2.11
+a) 不能对extern修饰的定义进行赋值
+b)定义
+c)声明
+2.12
+a)合法
+b)变量名不能仅由下划线组成
+c)变量名不能出现-
+d)变量名不能以数字开头
+e)合法
+2.13
+j=100
